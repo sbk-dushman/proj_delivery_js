@@ -1,5 +1,6 @@
+const cardsContainer = document.querySelector('.cards-restaurants'); 
+console.log(cardsContainer);
 const renderItems = (data)=>{
-    // console.log(data);
     data.forEach((element, index) => {
         console.log(element);
     });
