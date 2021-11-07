@@ -10,7 +10,7 @@ fetch('https://delivery-js-test-default-rtdb.firebaseio.com/db/partners.json')
     .then((response) => response.json())
     .then((data)=>{
      
-        grenderItems(data);
+        renderItems(data);
     }).catch((error)=>{
         console.log(error);
     })
